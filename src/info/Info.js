@@ -35,7 +35,7 @@ export const info = {
     ],
     socials: [
         {
-            link: "https://www.facebook.com/james.delfin.165",
+            link: "https://web.facebook.com/CoalitionCru",
             icon: 'fa fa-facebook',
             label: 'facebook'
         },
