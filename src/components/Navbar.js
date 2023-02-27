@@ -22,11 +22,6 @@ const links = [
         to: '/',
         active: 'home'
     },
-    {
-        name: 'Portfolio',
-        to: '/portfolio',
-        active: 'portfolio'
-    }
 ]
 
 export default function Navbar({darkMode, handleClick}) {

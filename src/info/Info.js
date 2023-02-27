@@ -1,4 +1,4 @@
-import self from "../img/james.jpg"
+import self from "../img/gomez.jpg"
 import mock1 from "../img/mock1.png"
 import mock2 from "../img/mock2.png"
 import mock3 from "../img/mock3.png"
@@ -23,30 +23,15 @@ of what each of the values mean.
  */
 
 export const info = {
-    firstName: "James",
-    lastName: "Delfin",
-    initials: "Portfolio", // the example uses first and last, but feel free to use three or more if you like.
+    firstName: "Richard",
+    lastName: "Gomez",
+    initials: "My Portfolio", // the example uses first and last, but feel free to use three or more if you like.
     position: "A BSCS Student",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
-        {
-            emoji: '☕',
-            text: 'fueled by coffee'
-        },
-        {
-            emoji: '🌎',
-            text: 'based in the PH'
-        },
-        {
-            emoji: "💼",
-            text: "Student"
-        },
-        {
-            emoji: "📧",
-            text: "delfinj24@gmail.com"
-        }
+       
     ],
     socials: [
         {
@@ -54,11 +39,7 @@ export const info = {
             icon: 'fa fa-facebook',
             label: 'facebook'
         },
-        {
-            link: "https://www.instagram.com/jamesdelfin21/",
-            icon: 'fa fa-instagram',
-            label: 'instagram'
-        },
+       
         {
             link: "https://github.com/delfin231",
             icon: "fa fa-github",
@@ -69,7 +50,7 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm James. I'm a  CS student . I studied CompScie at NEMSU, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "Hello! I'm Richard Gomez. I'm a  CS student . I studied CompScie at NEMSU, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
     skills:
         {
             proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3'],
